@@ -7,5 +7,6 @@ from . import views # импортируем из ЭТОЙ ЖЕ ПАПКИ ПР�
 # УЖЕ ПО УМОЛЧАНИЮ начинается с адреса 127.0.0.1:8000/havka
 
 urlpatterns = [
-    path('', views.index, name="havka"),
+    path('', views.index, name="havka"), 
+    path('about/', views.about, name="about"), 
 ]
